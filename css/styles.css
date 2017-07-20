@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.orange-color{
+    color: #f7971c;
+}
+.orange-bg {
+    background-color: #f7971c;
+}
+.pumpkin-bg {
+    background-color: #e66700;
+}
+.black-color{
+    color: #444444;
+}
+.f-s-md{
+    font-size: 20px;
+}
+.f-s-lg{
+    font-size: 30px;
+}
+.ff-neutra{
+    font-family: 'NeutraTextTF-Book-regular';
+}
+.footer-color {
+    color: #d8d8d8;
+}
+
+.Header {
+    height: 50px;
+    width: 100%;
+    background: white;
+}
+.Header-nav {
+    margin: 0;
+    padding: 0;
+
+}
+.Header-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Header-listItem {
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.Header-listItem a {
+    display: block;
+    padding: .5em;
+    font-family: 'NeutraTextTF-Book-regular';
+    color: #9b9b9b;
+
+}
+.last-child {
+    background-color: #f7971c;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+.last-child a{
+    color: white;
+}
+
+.Main-image {
+    background-image: url('../main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: 100% 100%;
+    text-align: center;
+}
+
+.Main-image h1, .Main-image h2 {
+    color: white;
+    font-family: 'NeutraTextTF-Book-regular';
+    margin: 0;
+}
+.Main-image h1 {
+    font-size: 3em;
+}
+.Main-image h2 {
+    font-size: 2em;
+}
+.container {
+    padding-top: 3em;
+}
+
+.Second-section {
+    height: 100vh;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.Second-section .image {
+    width: 160px;
+    display: inline-block;
+}
+.Second-section .image img {
+    width: 100%;
+    display: inline-block;
+}
+.Second-section .versus {
+    width: 80px;
+    height: 80px;
+    background-color: #f7971c;
+    border-radius: 50%;
+    padding: 1em;
+    vertical-align: middle;
+    color: white;
+    bottom: 70px;
+    position: relative;
+}
+.Second-section .container-paragraphs {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Second-section .paragraph-desc {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    font-family: 'NeutraTextTF-Book-regular';
+}
+
+.Register-section {
+    text-align: center;
+    padding-bottom: 5em;
+}
+.Register-link {
+    margin: 0 1em;
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: 100px;
+    color: white;
+    display: inline-block;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Footer-image {
+    width: 100px;
+    display: inline-block;
+}
+.Footer-image img {
+    width: 100%;
+}
+.Footer-list {
+    display: inline-block;
+}
+.Footer-register {
+    display: inline-block;
+    text-align: center;
+}
+.Footer-legals {
+    text-align: center;
+}
+.Footer-legals a {
+    margin: 0 1em;
+    padding: .5em 0;
+}
